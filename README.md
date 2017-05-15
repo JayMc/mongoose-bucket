@@ -1,4 +1,7 @@
 # mongoose-bucket
+<p align="center">
+	<img height="200" width="200" src="https://raw.githubusercontent.com/JayMc/mongoose-bucket/master/logo.png">
+</p>
 
 ## Basic usage (setup)
 ```javascript
