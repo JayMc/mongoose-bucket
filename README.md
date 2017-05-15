@@ -20,7 +20,7 @@ const options = {
 ## Basic usage (save to next bucket)
 Callback
 ```javascript
-MySchema.bucketInsert(parent_id, newComment, function (err, doc) {
+MySchema.bucketInsert(parent_id, newComment, function (err, parentDoc) {
 
 })
 ```
@@ -28,7 +28,7 @@ MySchema.bucketInsert(parent_id, newComment, function (err, doc) {
 Promise
 ```javascript
 MySchema.bucketInsert(parent_id, newComment)
-	.then(result => {
+	.then(parentDoc => {
 
 	})
 	.catch(error => {
