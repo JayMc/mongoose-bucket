@@ -1,0 +1,34 @@
+{
+  "name": "mongoose-bucket",
+  "version": "1.0.0",
+  "description": "Pagination on write",
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "bucket",
+    "pagination",
+    "pagination on write"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayMc/mongoose-bucket.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayMc/mongoose-bucket/issues"
+  },
+  "homepage": "https://github.com/JayMc/mongoose-bucket#readme",
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "chai": "^3.5.0",
+    "mongoose": "^4.9.8"
+  }
+}
